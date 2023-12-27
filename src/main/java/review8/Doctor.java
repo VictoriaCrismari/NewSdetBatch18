@@ -7,7 +7,7 @@ public class Doctor {
     int yearsOfExperience;
     private double salary;
 
-    Doctor(String firstName,String lastName,String speciality,int yearsOfExperience){
+    public Doctor(String firstName,String lastName,String speciality,int yearsOfExperience){
         this.firstName=firstName;
         this.lastName=lastName;
         this.speciality=speciality;
@@ -31,7 +31,7 @@ class Surgeon extends Doctor{
     String location;
     Surgeon(String firstName,String lastName,String speciality,int yearsOfExperience){
         super(firstName, lastName, speciality, yearsOfExperience);
-        this.location;
+        this.location=location;
     }
     public void prescribeMedication(String patient){
         System.out.println("Surgeon "+lastName+" prescribed medication to "+patient);

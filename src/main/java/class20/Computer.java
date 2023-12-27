@@ -17,7 +17,7 @@ public abstract class Computer {
     }
 
     static void  playSong(){
-        System.out.println("I can play music on my "+name);
+        System.out.println("I can play music on my "+type);
     }
     protected void printInfo(){
         System.out.println("I have "+name+" computer with "+memory+" memory");
